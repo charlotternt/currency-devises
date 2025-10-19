@@ -1,0 +1,57 @@
+.converter-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+input, select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="number"] {
+  width: 100px;
+}
+
+input[type="text"] {
+  width: 150px;
+  text-align: right;
+  background: #fff;
+}
+
+.error {
+  color: #e74c3c;
+  margin: 1rem 0;
+}
+
+.rate {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.loader {
+  margin: 1rem 0;
+  color: #3498db;
+  font-style: italic;
+  font-weight: bold;
+}
